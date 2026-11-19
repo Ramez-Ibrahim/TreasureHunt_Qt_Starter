@@ -1,0 +1,32 @@
+# Qt Creator user-specific settings
+*.pro.user
+*.pro.user.*
+.qtcreator/
+
+# Qt and C++ build output
+build/
+cmake-build-*/
+Makefile
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.app/
+
+# Generated Qt files
+moc_*.cpp
+uic_*.h
+rcc_*.cpp
+qrc_*.cpp
+
+# macOS
+.DS_Store
+
+# Editor and tooling files
+.vscode/
+.idea/
+*.swp
+*.swo
